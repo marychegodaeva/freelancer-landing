@@ -1,0 +1,258 @@
+button,
+h1,
+h2,
+h3,
+a {
+  all: unset;
+}
+
+::-moz-selection {
+  background: #29b8c2;
+}
+
+::selection {
+  background: #29b8c2;
+}
+
+.brand-button {
+  padding: 18px 65px;
+  border: 1px solid rgb(37, 164, 173);
+  color: rgb(37, 164, 173);
+  font-size: 18px;
+  cursor: pointer;
+}
+.brand-button:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(37, 164, 173);
+}
+
+.fill-brand-button {
+  background-color: rgb(37, 164, 173);
+  color: rgb(255, 255, 255);
+  padding: 18px 60px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.fill-brand-button:hover {
+  color: rgb(37, 164, 173);
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(37, 164, 173);
+}
+
+.brand-span {
+  color: rgb(37, 164, 173);
+  font-weight: 700;
+}
+
+body {
+  box-sizing: border-box;
+  max-width: 1440px;
+  margin: 0 auto;
+  color: rgb(49, 49, 49);
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  position: relative;
+}
+
+body header {
+  position: relative;
+}
+body header .rectangle-blue,
+body header .comment-brown,
+body header .comment-green,
+body header .comment-yellow,
+body header .rectangle-dark-gray,
+body header .rectangle-gray,
+body header .rectangles-blue,
+body header .arc-blue,
+body header .arc-line,
+body header .arrow-blue,
+body header .comment-yellow-top,
+body header .decorator-header {
+  position: absolute;
+  z-index: -1;
+}
+body header .rectangle-blue {
+  top: 700%;
+  left: 0;
+}
+body header .comment-brown {
+  top: 1200%;
+  right: 0;
+}
+body header .comment-green {
+  top: 1400%;
+  left: 2%;
+}
+body header .comment-yellow {
+  top: 200%;
+  left: 40%;
+}
+body header .rectangle-dark-gray {
+  left: 48%;
+  top: 650%;
+}
+body header .rectangle-gray {
+  top: 1501%;
+  left: 0;
+}
+body header .rectangles-blue {
+  top: 1100%;
+  left: 48%;
+}
+body header .arc-blue {
+  top: 380%;
+  left: 54%;
+}
+body header .arc-line {
+  top: 380%;
+  left: 55%;
+}
+body header .arrow-blue {
+  top: 400%;
+  left: 42%;
+  z-index: -2;
+}
+body header .comment-yellow-top {
+  top: -120%;
+  right: -1%;
+}
+body header .decorator-header {
+  top: -120%;
+  left: -9%;
+}
+
+body header .header {
+  margin: 50px 140px 0 140px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body header .header .nav-element {
+  cursor: pointer;
+}
+body header .header .nav-element:hover {
+  color: rgb(37, 164, 173);
+}
+body header .header .nav-elements {
+  font-size: 18px;
+  display: flex;
+  gap: 50px;
+}
+body header .header .nav-elements .logo {
+  color: rgb(37, 164, 173);
+  font-size: 22px;
+  font-weight: 700;
+}
+body header .header .nav-buttons {
+  display: flex;
+  gap: 30px;
+}
+body header .header .nav-buttons .brand-button {
+  padding: 16px 50px;
+}
+
+body main .content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  text-align: center;
+}
+body main .content .info {
+  max-width: 620px;
+}
+body main .content .title {
+  font-size: 65px;
+}
+
+body main .welcome {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto 140px;
+}
+body main .welcome .hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  max-width: 625px;
+  width: 100%;
+}
+body main .welcome .hero-content .title {
+  font-size: 100px;
+  font-weight: 300;
+  line-height: 100%;
+}
+body main .welcome .hero-content .info {
+  max-width: 426px;
+}
+body main .welcome .hero-content .buttons {
+  display: flex;
+  gap: 30px;
+}
+body main .welcome .hero-content .buttons .fill-brand-button {
+  box-shadow: 0 2px 3px 0 rgba(49, 49, 49, 0.02), 0 8px 6.5px 0 rgba(49, 49, 49, 0.04), 0 20px 13px 0 rgba(49, 49, 49, 0.05), 0 38.5px 25px 0 rgba(49, 49, 49, 0.06), 0 65px 47px 0 rgba(49, 49, 49, 0.08), 0 100px 80px 0 rgba(49, 49, 49, 0.1);
+}
+body main .logos {
+  display: flex;
+  gap: 100px;
+  padding: 68px 0;
+  background-color: rgb(248, 248, 248);
+  align-items: center;
+  justify-content: center;
+}
+body main .services {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 140px 0;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto 140px;
+}
+body main .services .decorator-services {
+  position: absolute;
+  z-index: -1;
+  top: 40%;
+  left: -33%;
+}
+body main .services .services-images {
+  display: flex;
+  gap: 40px;
+  margin: 80px 0;
+}
+body main .services .services-images .services-cards {
+  display: flex;
+  flex-direction: column;
+  max-width: 482px;
+  gap: 40px;
+}
+body main .services .services-images .services-cards .service-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body main .services .services-images .services-cards .service-card .card-image {
+  filter: brightness(50%);
+}
+body main .services .services-images .services-cards .service-card .card-content {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  text-align: center;
+}
+body main .services .services-images .services-cards .service-card .card-content .card-title {
+  font-size: 36px;
+  line-height: 100%;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  max-width: 225px;
+}
+body main .services .services-images .services-cards.right {
+  margin-top: 80px;
+}/*# sourceMappingURL=styles.css.map */
