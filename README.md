@@ -1,9 +1,9 @@
 # freelancer-landing
-creative project to create a website using the scss/sass preprocessor
+creative project to create a website using the scss preprocessor
 
 ![image](https://github.com/user-attachments/assets/263615e8-f3fb-41ef-9380-3df57bf8cacb)
 
-A project developed as part of the development of a preprocessor based on a layout from Pixso. It represents a landing page.  It is made in HTML, CSS style sheets and the CSS/SASS preprocessor were also used in the process. Flexbox technology is used. The pseudo-classes "hover" and "focus" are used. The positioning of the elements is implemented. Create a title. An adaptive version is in development. 
+A project developed as part of the development of a preprocessor based on a layout from Pixso. It represents a landing page.  It is made in HTML, CSS style sheets and the SCSS preprocessor were also used in the process. Flexbox technology is used. The pseudo-classes "hover" and "focus" are used. The positioning of the elements is implemented. Create a title. An adaptive version is in development. 
 
 Contains the "header", "welcome", "services", "logos" and "hero-content" blocks.
 
@@ -19,7 +19,7 @@ Contains the "header", "welcome", "services", "logos" and "hero-content" blocks.
 
 <hr>
 
-Проект, разработанный в рамках изучения препроцессора по макету из Pixso. Представляет собой лендинг.  Выполнен на языке HTML, также в процессе работы использовались таблицы стилей CSS и препроцессор SCSS/SASS. Использована технология flexbox. Использованы псевдоклассы "hover" и "focus". Реализовано позиционирование элементов. Создан header. Адаптивная версия в разработке. 
+Проект, разработанный в рамках изучения препроцессора по макету из Pixso. Представляет собой лендинг.  Выполнен на языке HTML, также в процессе работы использовались таблицы стилей CSS и препроцессор SCSS. Использована технология flexbox. Использованы псевдоклассы "hover" и "focus". Реализовано позиционирование элементов. Создан header. Адаптивная версия в разработке. 
 Содержит блоки "header", "welcome", "services", "logos" и "hero-content".
 
 <i>06.05.2024</i>
